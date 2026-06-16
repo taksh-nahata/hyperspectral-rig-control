@@ -9,3 +9,8 @@ A web-based control interface for synchronizing a Nanotec linear slider (via CAN
 3. Install the required hardware and server libraries:
    ```bash
    pip install -r requirements.txt
+4. Start the FastAPI server:
+   ```bash
+   uvicorn main:app --reload
+5. Open a web browser on the control computer and navigate to:
+[http://127.0.0.1:8000/dashboard](//127.0.0.1:8000/dashboard)
