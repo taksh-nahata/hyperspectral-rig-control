@@ -14,3 +14,5 @@ A web-based control interface for synchronizing a Nanotec linear slider (via CAN
    uvicorn main:app --reload
 5. Open a web browser on the control computer and navigate to:
 [http://127.0.0.1:8000/dashboard](//127.0.0.1:8000/dashboard)
+
+Note: If the hardware libraries are not detected on the host machine, the script will automatically safely fall back to a "Mock Mode" for UI testing.
