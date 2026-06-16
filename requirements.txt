@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+canopen
+python-can
+pypylon
+vmbpy
